@@ -1,5 +1,6 @@
 
-function makeGrid(width, height) {
+function makeGrid(width, height)        // grid generation based on user input
+{
 	let pixelCanvas, grid;
 	pixelCanvas = $('#pixel_canvas');
 	if (pixelCanvas.children().length) {
